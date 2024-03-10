@@ -14,6 +14,6 @@ Pod::Spec.new do |spec|
 
     spec.dependency 'secp256k1.c', '~> 0.1'
     spec.dependency 'BigInt', '~> 5.2.0' # no newer version in pods.
-    spec.dependency 'CryptoSwift', '~> 1.5.1'
+    spec.dependency 'CryptoSwift', '~> 1.8.1'
     spec.source_files = "Sources/Web3Core/**/*.swift"
 end
